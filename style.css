@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.head {
+  width: 450px;
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.himage {
+  width: 100%;
+}
+
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.container > * {
+  margin: 13px 0;
+}
+
+.order-description {
+  line-height: 20px;
+}
+
+.plan-container {
+  font-size: 16px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-container a {
+  color: hsl(245, 75%, 52%);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.plan-container:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.plan-container strong {
+  color: hsl(245, 75%, 52%);
+}
+
+.plan-description {
+  padding-right: 100px;
+  line-height: 20px;
+}
+button {
+  border: none;
+  font-size: 0.9rem;
+  width: 100%;
+  font-weight: 700;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.proceed-button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 20px 30px -8px rgb(197, 189, 245);
+}
+
+.proceed-button:hover {
+  opacity: 0.8;
+}
+
+.cancel-button {
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  margin-top: 22px;
+}
+
+.cancel-button:hover {
+  color: black;
+}
+
+.attribution {
+  text-align: center;
+}
